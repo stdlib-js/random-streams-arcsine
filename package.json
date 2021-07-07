@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-streams-arcsine",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create a readable stream for generating pseudorandom numbers drawn from an arcsine distribution.",
   "license": "Apache-2.0",
   "author": {
