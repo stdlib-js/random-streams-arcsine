@@ -20,7 +20,7 @@ limitations under the License.
 
 # Arcsine Random Numbers
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create a [readable stream][readable-stream] for generating pseudorandom numbers drawn from an [arcsine][arcsine] distribution.
 
@@ -551,8 +551,8 @@ $ random-arcsine 2.0 5.0 -n 10 --seed 1234
 
 ## See Also
 
--   [`@stdlib/random/base/arcsine`][@stdlib/random/base/arcsine]: arcsine distributed pseudorandom numbers.
--   [`@stdlib/random/iter/arcsine`][@stdlib/random/iter/arcsine]: create an iterator for generating pseudorandom numbers drawn from an arcsine distribution.
+-   <span class="package-name">[`@stdlib/random/base/arcsine`][@stdlib/random/base/arcsine]</span><span class="delimiter">: </span><span class="description">arcsine distributed pseudorandom numbers.</span>
+-   <span class="package-name">[`@stdlib/random/iter/arcsine`][@stdlib/random/iter/arcsine]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from an arcsine distribution.</span>
 
 </section>
 
@@ -603,8 +603,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-streams-arcsine/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-streams-arcsine?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/random-streams-arcsine.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/random-streams-arcsine/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
