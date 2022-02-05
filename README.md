@@ -30,8 +30,26 @@ limitations under the License.
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var randomStream = require( '@stdlib/random-streams-arcsine' );
+randomStream = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-streams-arcsine@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-streams-arcsine@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.randomStream;
+})()
+</script>
 ```
 
 <a name="random-stream"></a>
@@ -433,9 +451,14 @@ function onState( state ) {
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var inspectStream = require( '@stdlib/streams-node-inspect-sink' );
-var randomStream = require( '@stdlib/random-streams-arcsine' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-streams-arcsine@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 function log( v ) {
     console.log( v.toString() );
@@ -454,6 +477,11 @@ opts = {
 var iStream = inspectStream( opts, log );
 
 stream.pipe( iStream );
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -461,8 +489,6 @@ stream.pipe( iStream );
 <!-- /.examples -->
 
 <!-- Section for describing a command-line interface. -->
-
-* * *
 
 
 
@@ -533,6 +559,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/deno
+[umd-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/umd
+[esm-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -550,13 +583,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [arcsine]: https://en.wikipedia.org/wiki/Arcsine_distribution
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/arcsine]: https://github.com/stdlib-js/random-base-arcsine
+[@stdlib/random/base/arcsine]: https://github.com/stdlib-js/random-base-arcsine/tree/umd
 
-[@stdlib/random/iter/arcsine]: https://github.com/stdlib-js/random-iter-arcsine
+[@stdlib/random/iter/arcsine]: https://github.com/stdlib-js/random-iter-arcsine/tree/umd
 
 <!-- </related-links> -->
 
