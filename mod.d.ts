@@ -18,7 +18,7 @@
 
 // TypeScript Version: 2.0
 
-/// <reference types="https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/node/stream.d.ts" />
+/// <reference types="node"/>
 /// <reference types="https://deno.land/x/stdlib_types/index.d.ts"/>
 
 import { Readable } from 'stream';
