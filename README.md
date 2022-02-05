@@ -436,7 +436,7 @@ function onState( state ) {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<body>
 <script type="module">
 
 import inspectStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-inspect-sink@esm/index.mjs';
@@ -461,7 +461,7 @@ var iStream = inspectStream( opts, log );
 stream.pipe( iStream );
 
 </script>
-</head>
+</body>
 </html>
 ```
 
@@ -470,8 +470,6 @@ stream.pipe( iStream );
 <!-- /.examples -->
 
 <!-- Section for describing a command-line interface. -->
-
-* * *
 
 
 
@@ -541,6 +539,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [dependencies-url]: https://david-dm.org/stdlib-js/random-streams-arcsine/main
 
 -->
+
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/deno
+[umd-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/umd
+[esm-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/esm
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
