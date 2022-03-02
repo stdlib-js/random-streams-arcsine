@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/random-streams-arcsine",
+  "version": "0.0.7",
+  "description": "Create a readable stream for generating pseudorandom numbers drawn from an arcsine distribution.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/random-streams-arcsine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "statistics",
+    "stats",
+    "prng",
+    "rng",
+    "pseudorandom",
+    "random",
+    "rand",
+    "arcsine",
+    "continuous",
+    "readable",
+    "stream",
+    "seed",
+    "seedable"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
