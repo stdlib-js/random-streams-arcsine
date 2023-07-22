@@ -37,6 +37,7 @@ Alternatively,
 -   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
 -   If you are using Deno, visit the [`deno` branch][deno-url].
 -   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
 The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
@@ -488,10 +489,10 @@ stream.pipe( iStream );
 
 ## Installation
 
-To use the module as a general utility, install the module globally
+To use as a general utility, install the CLI package globally
 
 ```bash
-npm install -g @stdlib/random-streams-arcsine
+npm install -g @stdlib/random-streams-arcsine-cli
 ```
 
 </section>
@@ -561,8 +562,8 @@ $ random-arcsine 2.0 5.0 -n 10 --seed 1234
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/random/base/arcsine`][@stdlib/random/base/arcsine]</span><span class="delimiter">: </span><span class="description">arcsine distributed pseudorandom numbers.</span>
--   <span class="package-name">[`@stdlib/random/iter/arcsine`][@stdlib/random/iter/arcsine]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from an arcsine distribution.</span>
+-   <span class="package-name">[`@stdlib/random-base/arcsine`][@stdlib/random/base/arcsine]</span><span class="delimiter">: </span><span class="description">arcsine distributed pseudorandom numbers.</span>
+-   <span class="package-name">[`@stdlib/random-iter/arcsine`][@stdlib/random/iter/arcsine]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from an arcsine distribution.</span>
 
 </section>
 
@@ -621,11 +622,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
+
+[cli-section]: https://github.com/stdlib-js/random-streams-arcsine#cli
+[cli-url]: https://github.com/stdlib-js/random-streams-arcsine/tree/cli
+[@stdlib/random-streams-arcsine]: https://github.com/stdlib-js/random-streams-arcsine/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
